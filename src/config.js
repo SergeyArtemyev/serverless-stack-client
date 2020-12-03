@@ -1,4 +1,7 @@
 const config = {
+  MAX_ATTACHMENT_SIZE: 5000000,
+  STRIPE_KEY:
+    'pk_test_51HttxqLQsfnxbeU3NOCaytXVkxoYKHBbVuOZCRsjtOnqBvQG6VGcRMY4WLxYGLWuucIPsJWWJFBxTNBuYVlObhjQ00XkFbwLmq',
   s3: {
     REGION: 'us-east-1',
     BUCKET: 'sergey-note-app-upload',
